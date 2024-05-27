@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Setting</title>
+  </head>
+  <script>
+    document.documentElement.setAttribute(
+      "data-theme",
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light",
+    );
+  </script>
+  <body
+    class="bg-background-light text-primary-light dark:bg-background-dark dark:text-primary-dark"
+  >
+    <div id="root"></div>
+    <script type="module" src="/src/renderer/setting.tsx"></script>
+  </body>
+</html>
