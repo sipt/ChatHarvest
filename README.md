@@ -2,6 +2,8 @@
 
 ChatHarvest 是一个基于 Electron 实现的与 GPT 进行对话的桌面应用。
 
+![Preview](assets/SCR-20240204-kc0.png)
+
 ## 安装
 
 ### 下载安装
