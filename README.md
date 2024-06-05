@@ -1,4 +1,15 @@
-# ChatHarvest
+<p align="center"> 
+  <img  src="./icon.ico" data-canonical-src="https://chat.sipt.top" width="128" />
+</p>
+
+<h1 align="center">
+  ChatHarvest
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/sipt/ChatHarvest?label=version">
+  <img src="https://img.shields.io/badge/license-MIT-green">
+</p>
 
 ChatHarvest 是一个基于 Electron 实现的与 GPT 进行对话的桌面应用。
 
