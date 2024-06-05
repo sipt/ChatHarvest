@@ -56,12 +56,6 @@ const config: ForgeConfig = {
     ),
     new MakerRpm({}),
     new MakerDeb({}),
-    new MakerPKG(
-      {
-        identity: "3rd Party Mac Developer Installer: XINYAN WU (34D4U5A5CW)",
-      },
-      ["mas"],
-    ),
     new MakerDMG(
       {
         name: "ChatHarvest",
@@ -93,18 +87,6 @@ const config: ForgeConfig = {
             },
           ];
         },
-      },
-      ["darwin"],
-    ),
-  ],
-  publishers: [
-    new PublisherS3(
-      {
-        region: "us-east-1",
-        bucket: "apps",
-        endpoint:
-          "https://1b8fcd7615361c9d624e99c34ce729d1.r2.cloudflarestorage.com",
-        folder: "bubble",
       },
       ["darwin"],
     ),
